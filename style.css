@@ -1,0 +1,54 @@
+.headWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.headWrapper img{
+   width: 150px;
+   height: 150px;  
+   object-fit: cover; 
+ 
+}
+.wrapper{
+
+}
+.mainbox{
+
+}
+.controlAllInput input{
+    display: block;
+    margin: 10px 20px 10px 0px;
+    padding: 5px 5px;
+}
+.targetAllLabel label{
+    display: block;
+    margin: 10px 20px 10px 0px;
+    font-size: 20px;
+ 
+}
+.bigBoxControlLabelInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#submit{
+    display: block;
+    margin: auto;
+   padding: 10px 40px;
+   margin-top: 30px;
+   border: none;
+   background-color: #7F8C8D;
+   font-size: 15px;
+ 
+}
+#submit:hover{
+  background-color:#16A085;
+}
+#showTotal{
+text-align: center;
+}
+#showTotalAfterTax{
+    text-align: center;
+}

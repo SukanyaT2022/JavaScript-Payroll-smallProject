@@ -3,16 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculate Payroll</title>
+ <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+<div class="wrapper">
+<div class="headWrapper">
+    <img src ="moneybag-removebg.png">
+<h1>Payroll Calculator</h1>
+</div>
+
     <div class="mainBox">
-    <input type="number" placeholder="Regular Hours" id="regularHour">
-    <input type ="number" placeholder="Extra Hours" id="extraHour">
-    <input type ="number" placeholder="Hourly Wages" id="hourlyWage">
+        <div class="bigBoxControlLabelInput">
+<div class="targetAllLabel">
+<label>Hours Worked</label>
+<label>Extra Hours Worked</label>
+<label>Pay Per Hour</label>
+</div>
+
+
+    <div class="controlAllInput">
+   <input type="number" placeholder="Regular Hours" id="regularHour">
+       <input type ="number" placeholder="Extra Hours" id="extraHour">
+            <input type ="number" placeholder="Hourly Wages" id="hourlyWage">
+        </div>
+    </div>
     <button id="submit" onclick="calPayroll()">Submit</button>
 <h4 id="showTotal"></h4>
 <h4 id="showTotalAfterTax"></h4>
+</div>
+
 </div>
 </body>
 <script src="index.js"></script>
